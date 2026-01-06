@@ -30,23 +30,22 @@ It supports full user management and post management with CRUD operations.
 - Delete a post
 
 ---
-
-## 📂 Project Structure
 ## Project Structure
 
+```text
 backend/
 ├─ src/
-│ ├─ controllers/
-│ │ ├─ user.controller.js
-│ │ └─ post.controller.js
-│ ├─ models/
-│ │ ├─ user.model.js
-│ │ └─ post.model.js
-│ ├─ routes/
-│ │ ├─ user.route.js
-│ │ └─ post.route.js
-│ ├─ app.js
-│ └─ index.js
+│  ├─ controllers/
+│  │  ├─ user.controller.js
+│  │  └─ post.controller.js
+│  ├─ models/
+│  │  ├─ user.model.js
+│  │  └─ post.model.js
+│  ├─ routes/
+│  │  ├─ user.route.js
+│  │  └─ post.route.js
+│  ├─ app.js
+│  └─ index.js
 ├─ .env
 ├─ package.json
 ├─ package-lock.json
