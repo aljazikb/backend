@@ -34,9 +34,7 @@ It supports full user management and post management with CRUD operations.
 ## 📂 Project Structure
 
 backend/
-
 ├─ src/
-
 │ ├─ controllers/
 │ │ ├─ user.controller.js
 │ │ └─ post.controller.js
