@@ -32,6 +32,8 @@ It supports full user management and post management with CRUD operations.
 ---
 
 ## 📂 Project Structure
+## Project Structure
+
 
 backend/
 ├─ src/
