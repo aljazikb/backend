@@ -34,7 +34,6 @@ It supports full user management and post management with CRUD operations.
 ## 📂 Project Structure
 ## Project Structure
 
-
 backend/
 ├─ src/
 │ ├─ controllers/
@@ -52,4 +51,5 @@ backend/
 ├─ package.json
 ├─ package-lock.json
 └─ README.md
+
 
