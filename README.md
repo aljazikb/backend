@@ -32,23 +32,27 @@ It supports full user management and post management with CRUD operations.
 ---
 ## Project Structure
 
+## Project Structure
+
 ```text
 backend/
+├─ controllers/
+│  ├─ user.controller.js
+│  └─ post.controller.js
+├─ routes/
+│  ├─ user.route.js
+│  └─ post.route.js
 ├─ src/
-│  ├─ controllers/
-│  │  ├─ user.controller.js
-│  │  └─ post.controller.js
+│  ├─ config/
+│  │  ├─ constants.js
+│  │  └─ database.js
 │  ├─ models/
-│  │  ├─ user.model.js
-│  │  └─ post.model.js
-│  ├─ routes/
-│  │  ├─ user.route.js
-│  │  └─ post.route.js
-│  ├─ app.js
-│  └─ index.js
+│  │  ├─ app.js
+│  │  └─ index.js
+│  
+│
 ├─ .env
 ├─ package.json
 ├─ package-lock.json
 └─ README.md
-
 
